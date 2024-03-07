@@ -22,14 +22,14 @@ class Gold implements Tier { // Gold tier class
     private int totalFlights; // total number ofpassenger's flights
 
     public int getMiles() { // returnsmiles earned so far
-        return miles; // returnscurrent miles earned
+        return miles; // returns current miles earned
     }
 
-    public int getCancelledFlights() { // returnscurrent number of cancelled flights
-        return cancelledFlights; // returnscurrent number ofpassenger's flights
+    public int getCancelledFlights() { // returns current number of cancelled flights
+        return cancelledFlights; // returns current number ofpassenger's flights
     }
 
-    public int getFlights() { // returnscurrent total number of flights, including cancelled flights
+    public int getFlights() { // returns current total number of flights, including cancelled flights
         return totalFlights;
     }
 
@@ -51,11 +51,11 @@ class Platinum implements Tier { // Platinum tier class
         return miles;
     }
 
-    public int getCancelledFlights() { // returnscurrent number of cancelled flights
+    public int getCancelledFlights() { // returns current number of cancelled flights
         return cancelledFlights;
     }
 
-    public int getFlights() { // returnscurrent total number of flights, including cancelled flights
+    public int getFlights() { // returns current total number of flights, including cancelled flights
         return totalFlights;
     }
 
@@ -83,7 +83,7 @@ class ExecutivePlatinum implements Tier { // Executive Platinum tier class
         return miles;
     }
 
-    public int getCancelledFlights() { // returnscurrent number of cancelled flights
+    public int getCancelledFlights() { // returns current number of cancelled flights
         return cancelledFlights;
     }
 
@@ -115,7 +115,7 @@ class PlatinumPro implements Tier { // Platinum Pro tier class
         return miles;
     }
 
-    public int getCancelledFlights() { // returnscurrent number of cancelled flights
+    public int getCancelledFlights() { // returns current number of cancelled flights
         return cancelledFlights;
     }
 
@@ -147,7 +147,7 @@ class SuperExecutivePlatinum implements Tier { // Super Executive Platinum tier 
         return miles;
     }
 
-    public int getCancelledFlights() { // returnscurrent number of cancelled flights
+    public int getCancelledFlights() { // returns current number of cancelled flights
         return cancelledFlights;
     }
 
